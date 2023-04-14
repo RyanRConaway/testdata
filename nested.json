@@ -1,10 +1,33 @@
-{
-  "parent1": {
-    "child1": "child1name",
-    "child2": "child2name"
+[
+  {
+    "parent1": {
+      "child1": "same",
+      "child2": "same"
+    },
+    "parent2": {
+      "child3": "child3name"
+    },
+    "child_list": ["child1", "child2", "child3"]
   },
-  "parent2": {
-    "child3": "child3name"
+  {
+    "parent1": {
+      "child1": "not",
+      "child2": "same"
+    },
+    "parent2": {
+      "child3": "child3name"
+    },
+    "child_list": ["child1", "child2", "child3"]
   },
-  "child_list": ["child1", "child2", "child3"]
-}
+  {
+    "parent1": {
+      "child1": "not",
+      "child2": "same",
+      "childrenEqual": "Maybe?"
+    },
+    "parent2": {
+      "child3": "child3name"
+    },
+    "child_list": ["child1", "child2", "child3"]
+  }
+]
