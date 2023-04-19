@@ -1,0 +1,25 @@
+<top>
+    <middle>
+        <rows>
+            <person>
+                <firstName>Susan - sample.xml</firstName>
+                <pets></pets>
+                <house>
+                    <address>123 foo</address>
+                    <zip>55555</zip>
+                </house>
+            </person>
+            <person>
+                <firstName>John - sample.xml</firstName>
+                <pets>
+                    <pet name="Simon"></pet>
+                    <pet name="Sally"></pet>
+                </pets>
+                <house>
+                    <address>123 bar</address>
+                    <zip>33333</zip>
+                </house>
+            </person>
+        </rows>
+    </middle>
+</top>
